@@ -6,5 +6,5 @@ to build projects enter:
 ```
 to compile build enter:
 ```bash
-gcc build.c -o build
+gcc src/build.c -o build
 ```
