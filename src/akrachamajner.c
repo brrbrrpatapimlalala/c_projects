@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+int usleep(int ms);
+
 int main() {
   while (1) {
     int i = rand() % 100000000 + 1;
