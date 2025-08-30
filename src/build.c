@@ -10,4 +10,5 @@ int main() {
   system("gcc src/build.c -o build --std=c99");
   puts("building bank");
   system("gcc src/bank.c -o bank --std=c99");
+  return 0;
 }

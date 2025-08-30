@@ -22,4 +22,5 @@ int main() {
   if (strcmp(oper, "/") == 0) {
     printf("%d\n", n1 / n2);
   }
+  return 0;
 }
